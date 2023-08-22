@@ -1,0 +1,75 @@
+{
+    "optionalFeatures": {
+      "acceptableApplicationBundleIDs": [],
+      "acceptableAssertionUsage": false,
+      "acceptableCameraUsage": true,
+      "acceptableScreenSharingUsage": true,
+      "aggressiveUserExperience": true,
+      "aggressiveUserFullScreenExperience": true,
+      "asynchronousSoftwareUpdate": true,
+      "attemptToBlockApplicationLaunches": false,
+      "attemptToFetchMajorUpgrade": true,
+      "blockedApplicationBundleIDs": [],
+      "enforceMinorUpdates": true,
+      "terminateApplicationsOnLaunch": false
+    },
+    "osVersionRequirements": [
+      {
+        "aboutUpdateURL_disabled": "https://support.apple.com/en-us/HT213268",
+        "aboutUpdateURLs": [
+          {
+            "_language": "en",
+            "aboutUpdateURL": "https://support.apple.com/en-us/HT213268"
+          }
+        ],
+        "requiredInstallationDate": "2023-08-23T23:30:00Z",
+        "requiredMinimumOSVersion": "13.5.1",
+        "targetedOSVersionsRule": "13"
+      }
+    ],
+    "userExperience": {
+      "allowGracePeriods": true,
+      "allowUserQuitDeferrals": true,
+      "allowedDeferrals": 1000000,
+      "allowedDeferralsUntilForcedSecondaryQuitButton": 14,
+      "approachingRefreshCycle": 6000,
+      "approachingWindowTime": 72,
+      "elapsedRefreshCycle": 300,
+      "gracePeriodInstallDelay": 48,
+      "gracePeriodLaunchDelay": 4,
+      "gracePeriodPath": "/private/var/db/.AppleSetupDone",
+      "imminentRefreshCycle": 600,
+      "imminentWindowTime": 24,
+      "initialRefreshCycle": 18000,
+      "maxRandomDelayInSeconds": 1200,
+      "noTimers": false,
+      "nudgeRefreshCycle": 60,
+      "randomDelay": false
+    },
+    "userInterface": {
+      "fallbackLanguage": "en",
+      "forceFallbackLanguage": false,
+      "forceScreenShotIcon": false,
+      "showDeferralCount": true,
+      "iconDarkPath": "https://dojo.tech/media/bobazqp3/dojo_logo_charcoal_rgb_3600.png",
+      "iconLightPath": "https://dojo.tech/media/bobazqp3/dojo_logo_charcoal_rgb_3600.png",
+      "simpleMode": false,
+      "singleQuitButton": false,
+      "updateElements": [
+        {
+          "_language": "en",
+          "actionButtonText": "Update Now",
+          "customDeferralButtonText": "Custom",
+          "customDeferralDropdownText": "Later",
+          "informationButtonText": "More Info",
+          "mainContentNote": "Important Notes",
+          "mainContentText": "An Operating System update is required on your device. Please click \"Update Now\" above to start the update.",
+          "mainHeader": "Your device requires a security update",
+          "oneDayDeferralButtonText": "One Day",
+          "oneHourDeferralButtonText": "One Hour",
+          "primaryQuitButtonText": "Later",
+          "secondaryQuitButtonText": "I understand"
+        }
+      ]
+    }
+  }
